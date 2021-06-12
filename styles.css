@@ -1,0 +1,148 @@
+body {
+    font-family: PT Sans, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+    background-color: #000000;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+	list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    margin: 0;
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.top-panel-top {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 14px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-panel-top-list {
+    width: 385px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #969696;
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-line {
+    height: 14px;
+    padding-left: 30px;
+    background-image: url(https://i.yapx.ru/MvJDu.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#line {
+    padding-left: 18px;
+    position: relative;
+}
+
+#line::before {
+    content: "";
+    width: 1px;
+    height: 8px;
+    color: #969696;
+    background-color: #969696;
+    position: absolute;
+    top: 17%;
+    left: 0;
+}
+
+.top-panel-top-user a{
+    font-size: 12px;
+    line-height: 15px;
+    color: #969696;
+}
+
+#enter {
+    padding-left: 20px;
+    background-image: url(https://i.yapx.ru/MvJcu.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.top-panel-bottom {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-list {
+    width: 560px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-panel-bottom-list {
+    width: 408px;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-panel-bottom-list a {
+    color: #969696;
+}
+
+.activ-item {
+    padding: 30px 20px;
+    background-color: #1F1F1F;
+}
+
+.activ-item a {
+    color: white;
+}
+
+.top-panel-bottom-user {
+    width: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-panel-bottom-logo {
+    display: flex;
+    align-items: center;
+}
+
+#wrapper-top-panel-bottom {
+    background-color: #0F0F0F;
+}

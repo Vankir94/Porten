@@ -7,39 +7,41 @@
     <title>Porten</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="cleaning/reset.css">
+    <link rel="stylesheet" href="cleaning/normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="top-panel">
             <div class="top-panel-top">
                 <ul class="top-panel-top-list">
-                    <li class="top-panel-top-item">8(812)123-45-67</li>
-                    <li class="top-panel-top-item">Работаем 7 днуй в неделю</li>
-                    <li class="top-panel-top-item">9:00-18:00</li>
+                        <li class="top-panel-top-item" id="first-line">8(812)123-45-67</li>
+                        <li class="top-panel-top-item" id="line">Работаем 7 дней в неделю</li>
+                        <li class="top-panel-top-item" id="line">9:00-18:00</li>
                 </ul>
                 <div class="top-panel-top-user">
-                    <a href="#">Войти/</a>
-                    <a href="#">Регистрация</a>
+                        <a href="#" id="enter">Войти /</a>
+                        <a href="#">Регистрация</a>
                 </div>
             </div>
-            <div class="top-panel-bottom">
-                <div class="top-panel-bottom-logo">
-                    <img src="img/PORTEN.svg" alt="Логотип страницы">
+            <div id="wrapper-top-panel-bottom">
+                <div class="top-panel-bottom">
+                            <div class="top-panel-bottom-logo">
+                                <img src="img/PORTEN.svg" alt="Логотип страницы">
+                            </div>
+                            <div class="wrapper-list">
+                                <ul class="top-panel-bottom-list">
+                                    <li class="top-panel-bottom-item activ-item"><a href="#">Понравилось</a></li>
+                                    <li class="top-panel-bottom-item"><a href="#">личный кабинет</a></li>
+                                    <li class="top-panel-bottom-item"><a href="#">настройки</a></li>
+                                </ul>
+                                <div class="top-panel-bottom-user">
+                                    <a href="#"><img src="img/bx.svg" alt="Иконка корзины"></a>
+                                    <a href="#"><img src="img/Vector.svg" alt="Иконка поиска"></a>
+                                </div>
+                            </div>
                 </div>
-                <ul class="top-panel-bottom-list">
-                    <li class="top-panel-bottom-item"><a href="#">Понравилось</a></li>
-                    <li class="top-panel-bottom-item"><a href="#">личный кабинет</a></li>
-                    <li class="top-panel-bottom-item"><a href="#">настройки</a></li>
-                </ul>
-                <div class="top-panel-bottom-user">
-                    <a href="#"><img src="img/bx.svg" alt="Иконка корзины"></a>
-                    <a href="#"><img src="img/Vector.svg" alt="Иконка поиска"></a>
-                </div>
-            </div>
-            </div>
+            </div> 
         </div>
     </header>
     <div class="container bgr-picture">
