@@ -23,6 +23,7 @@ h2 {
     font-family: Playfair Display;
     font-size: 36px;
     font-weight: 700;
+    line-height: 48px;
 }
 
 h3 {
@@ -100,6 +101,7 @@ a {
 .top-panel-bottom {
     width: 1110px;
     margin: 0 auto;
+    text-transform: uppercase;
     display: flex;
     justify-content: space-between;
 }
@@ -112,6 +114,7 @@ a {
 
 .top-panel-bottom-list {
     width: 408px;
+    margin-left: 30px;
     line-height: 18px;
     display: flex;
     justify-content: space-between;
@@ -134,7 +137,7 @@ a {
 .top-panel-bottom-user {
     width: 86px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -145,4 +148,133 @@ a {
 
 #wrapper-top-panel-bottom {
     background-color: #0F0F0F;
+}
+
+.first-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-screen-ligo {
+    margin-top: 160px;
+    margin-bottom: 80px;
+}
+
+.first-screen p {
+    width: 730px;
+    margin-bottom: 148px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.bgr-picture {
+    background-image: url(https://i.yapx.ru/MvMM1.png);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.season-collection {
+    padding: 93px 80px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.season-collection h2 {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.season-collection h2::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.season-collection-list {
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.season-collection-item div {
+    margin-bottom: 25px;
+    background-color: #191B1C;
+}
+
+.season-collection-item img {
+    padding: 55px 23px;
+}
+
+.season-collection-item p {
+    margin-bottom: 10px;
+    font-family: Playfair Display;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.season-collection-item span {
+    display: block;
+    margin-bottom: 92px;
+    font-size: 16px;
+    color: #D0D0D0;
+}
+
+.new-collection {
+    position: relative;
+}
+
+.new-collection-btn {
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+
+.new-collection-btn h2 {
+    line-height: 39px;
+    padding-bottom: 30px;
+}
+
+.new-collection-btn h2::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.new-collection-btn a {
+    padding: 12px 28px;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 23px;
+    border: 1px solid;
+    display: inline-block;
+}
+
+.viewing-collection {
+    width: 471px;
+    text-align: center;
+    margin: auto;
 }
