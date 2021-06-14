@@ -20,7 +20,7 @@ p {
 
 h2 {
     margin: 0;
-    font-family: Playfair Display;
+    font-family: Playfair Display SC, Playfair Display;
     font-size: 36px;
     font-weight: 700;
     line-height: 48px;
@@ -28,15 +28,26 @@ h2 {
 
 h3 {
     margin: 0;
-    font-family: Playfair Display;
+    font-family: Playfair Display SC, Playfair Display;
     font-weight: 400;
     font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
 }
 
 a {
     text-decoration: none;
     outline: none;
     color: white;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    border: none;
+    cursor: pointer;
 }
 
 .container {
@@ -209,6 +220,7 @@ a {
     width: 880px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .season-collection-item div {
@@ -277,4 +289,155 @@ a {
     width: 471px;
     text-align: center;
     margin: auto;
+}
+
+.viewing-collection  h2{
+    padding-bottom: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.viewing-collection h2::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.viewing-collection p {
+    margin-top: 40px;
+}
+
+.viewing-collection a {
+    padding: 12px 30px;
+    margin-top: 60px;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    border: 1px solid;
+    display: inline-block;
+}
+
+.wrapper {
+    width: 1110px;
+    margin: auto;
+}
+
+#collections {
+    width: 1110px;
+    margin-bottom: 57px;
+}
+
+.new-arrivals h2 {
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+}
+
+.new-arrivals h2::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bgd-color {
+    background-color: #0F0F0F;
+}
+
+.brands {
+    text-align: center;
+}
+
+.brands h2 {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.brands h2::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.brand {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture-bgr {
+    background-image: url(https://i.yapx.ru/MwQuv.png);
+}
+
+.flex-wrapper {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features {
+    width: 350px;
+}
+
+.features h3 {
+    margin-bottom: 40px;
+}
+
+.features p {
+    margin-bottom: 40px;
+}
+
+.features-btn {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.features a {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #0F0F0F;
+}
+
+.features input {
+    width: 200px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.features input::placeholder {
+    padding-left: 10px;
+    color: white; opacity: 60%;
+}
+
+#features-btn {
+    padding: 10px 20px;
+    background-color: #0F0F0F;
+    color: white;
+}
+
+.last-line {
+    padding: 17px 0;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
 }
