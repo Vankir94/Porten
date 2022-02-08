@@ -1,0 +1,443 @@
+body {
+    font-family: PT Sans, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+    background-color: #000000;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+	list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-family: Playfair Display SC, Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+h3 {
+    margin: 0;
+    font-family: Playfair Display SC, Playfair Display;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.top-panel-top {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 14px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-panel-top-list {
+    width: 385px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #969696;
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-line {
+    height: 14px;
+    padding-left: 30px;
+    background-image: url(https://i.yapx.ru/MvJDu.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#line {
+    padding-left: 18px;
+    position: relative;
+}
+
+#line::before {
+    content: "";
+    width: 1px;
+    height: 8px;
+    color: #969696;
+    background-color: #969696;
+    position: absolute;
+    top: 17%;
+    left: 0;
+}
+
+.top-panel-top-user a{
+    font-size: 12px;
+    line-height: 15px;
+    color: #969696;
+}
+
+#enter {
+    padding-left: 20px;
+    background-image: url(https://i.yapx.ru/MvJcu.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.top-panel-bottom {
+    width: 1110px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-list {
+    width: 560px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-panel-bottom-list {
+    width: 408px;
+    margin-left: 30px;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-panel-bottom-list a {
+    color: #969696;
+}
+
+.activ-item {
+    padding: 30px 20px;
+    background-color: #1F1F1F;
+}
+
+.activ-item a {
+    color: white;
+}
+
+.top-panel-bottom-user {
+    width: 86px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-panel-bottom-logo {
+    display: flex;
+    align-items: center;
+}
+
+#wrapper-top-panel-bottom {
+    background-color: #0F0F0F;
+}
+
+.first-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-screen-ligo {
+    margin-top: 160px;
+    margin-bottom: 80px;
+}
+
+.first-screen p {
+    width: 730px;
+    margin-bottom: 148px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.bgr-picture {
+    background-image: url(https://i.yapx.ru/MvMM1.png);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.season-collection {
+    padding: 93px 80px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.season-collection h2 {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.season-collection h2::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.season-collection-list {
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.season-collection-item div {
+    margin-bottom: 25px;
+    background-color: #191B1C;
+}
+
+.season-collection-item img {
+    padding: 55px 23px;
+}
+
+.season-collection-item p {
+    margin-bottom: 10px;
+    font-family: Playfair Display;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.season-collection-item span {
+    display: block;
+    margin-bottom: 92px;
+    font-size: 16px;
+    color: #D0D0D0;
+}
+
+.new-collection {
+    position: relative;
+}
+
+.new-collection-btn {
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+
+.new-collection-btn h2 {
+    line-height: 39px;
+    padding-bottom: 30px;
+}
+
+.new-collection-btn h2::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.new-collection-btn a {
+    padding: 12px 28px;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 23px;
+    border: 1px solid;
+    display: inline-block;
+}
+
+.viewing-collection {
+    width: 471px;
+    text-align: center;
+    margin: auto;
+}
+
+.viewing-collection  h2{
+    padding-bottom: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.viewing-collection h2::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.viewing-collection p {
+    margin-top: 40px;
+}
+
+.viewing-collection a {
+    padding: 12px 30px;
+    margin-top: 60px;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    border: 1px solid;
+    display: inline-block;
+}
+
+.wrapper {
+    width: 1110px;
+    margin: auto;
+}
+
+#collections {
+    width: 1110px;
+    margin-bottom: 57px;
+}
+
+.new-arrivals h2 {
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+}
+
+.new-arrivals h2::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bgd-color {
+    background-color: #0F0F0F;
+}
+
+.brands {
+    text-align: center;
+}
+
+.brands h2 {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.brands h2::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.brand {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture-bgr {
+    background-image: url(https://i.yapx.ru/MwQuv.png);
+}
+
+.flex-wrapper {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features {
+    width: 350px;
+}
+
+.features h3 {
+    margin-bottom: 40px;
+}
+
+.features p {
+    margin-bottom: 40px;
+}
+
+.features-btn {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.features a {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #0F0F0F;
+}
+
+.features input {
+    width: 200px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.features input::placeholder {
+    padding-left: 10px;
+    color: white; opacity: 60%;
+}
+
+#features-btn {
+    padding: 10px 20px;
+    background-color: #0F0F0F;
+    color: white;
+}
+
+.last-line {
+    padding: 17px 0;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+}
